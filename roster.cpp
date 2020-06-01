@@ -4,7 +4,9 @@
 #include "student.h"
 #include "degree.h"
 #include <string>
-using namespace std;
+using std::cout;
+using std::endl;
+using std::cerr;
 
 Roster::Roster()
 {
