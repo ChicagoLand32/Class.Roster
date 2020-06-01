@@ -6,10 +6,9 @@
 #include <list>
 #include <string>
 #include <iomanip>
-#include "degree.h"
 #include "student.h"
-#include "roster.h"
-using namespace std;
+
+
 
 
 
