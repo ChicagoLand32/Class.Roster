@@ -5,7 +5,8 @@
 #include "roster.h"
 #include <string>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 Student::Student()
 {
