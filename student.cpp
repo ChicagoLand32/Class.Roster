@@ -1,10 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include "student.h"
-#include "degree.h"
-#include "roster.h"
 #include <string>
-
 using std::cout;
 using std::endl;
 
