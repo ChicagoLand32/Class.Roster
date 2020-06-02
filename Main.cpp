@@ -5,9 +5,6 @@
 using std::string;
 using std::cout;
 using std::endl;
-using std::left;
-using std::setw;
-using std::cerr;
 using namespace std;
 
 #include "student.h"
@@ -18,7 +15,7 @@ int main()
 	cout << "Scripting and Programming - Applications - C867" << endl;
 	cout << "Programming Language: c++" << endl;
 	cout << "Student ID:001292851" << endl;
-	cout << "Joshua Harrison";
+	cout << "J";
 
 	Roster* classRoster = new Roster(numStudents);
 	cout << "Parsing data and adding Students:\t";
