@@ -1,12 +1,10 @@
 #include <iostream>
 #include <iomanip>
 #include "roster.h"
-#include "student.h"
-#include "degree.h"
 #include <string>
 using std::cout;
 using std::endl;
-using std::cerr;
+
 
 Roster::Roster()
 {
@@ -71,13 +69,7 @@ void Roster::parseAdd(string row)
 		numDaysArray[2] = stod(studentData[lastIndex].substr(lhs, rhs - lhs));
 
 
-		/*
-				lhs = rhs + 1;
-				rhs = studentData[lastIndex].find(",", lhs);
-				classRosterArray[lastIndex]->setDegreeProgram(studentData[lastIndex].substr(lhs, rhs - lhs));
-
-				classRosterArray[lastIndex]->setNumDays(numDaysArray);
-*/
+	
 			}
 		}
 		
